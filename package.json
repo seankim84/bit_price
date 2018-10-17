@@ -1,0 +1,18 @@
+{
+  "name": "bit_price",
+  "version": "1.0.0",
+  "description": "Bit Price with NextJS",
+  "main": "index.js",
+  "author": "Sean.Kim",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^7.0.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  },
+  "scripts": {
+    "dev": "next",
+    "build":"next build",
+    "start":"next start"
+  }
+}
