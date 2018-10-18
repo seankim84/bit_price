@@ -1,11 +1,10 @@
-import Navbar from '../components/Navbar';
+import Layout from '../components/Layout';
 
 const About = () => (
-    <div>
-        <Navbar />
+    <Layout>
         <h1>About Sean</h1>
         <p>Application to view currency prices</p>  
-    </div>
+    </Layout>
 );
 
 export default About;

@@ -1,8 +1,9 @@
-import Navbar from '../components/Navbar';
+import Layout from '../components/Layout';
 
 export default () => (
-    <div>
-        <Navbar />
-        <h1>Let's Crash the NextJS</h1>
-    </div>
+    <Layout>
+        <div>
+            <h1>Let's Crash the NextJS</h1>
+        </div>
+    </Layout>
 )

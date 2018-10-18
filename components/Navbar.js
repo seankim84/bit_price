@@ -8,7 +8,7 @@ const Navbar = () => (
         </ul>
 
         <style jsx>{`
-            ul {
+            ul {    
                 background: #333;
                 color: #fff;
                 list-style: none;
