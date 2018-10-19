@@ -30,7 +30,7 @@ class Prices extends React.Component {
 
         return(
             <div>
-                 <div class="form-group">
+                 <div className="form-group">
                     <label for="exampleSelect1">Currency Selector</label>
                     <select className="form-control" 
                             id="exampleSelect1"
