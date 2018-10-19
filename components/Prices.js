@@ -1,7 +1,7 @@
 class Prices extends React.Component {
 
     state = {
-        currency: ''
+        currency: 'USD'
     }
 
     render(){
@@ -30,15 +30,18 @@ class Prices extends React.Component {
 
         return(
             <div>
-                <ul>
-                    {list}
-                </ul>
-                <br />
-                <select onChange={e => this.setState({currency: e.target.value})}>
-                    <option value="USD">USD</option>
-                    <option value="GBP">GBP</option>
-                    <option value="EUR">EUR</option>
-                </select>
+                 <div class="form-group">
+                    <label for="exampleSelect1">Currency Selector</label>
+                    <select className="form-control" 
+                            id="exampleSelect1"
+                            onChange={e => this.setState({currency: e.target.value})}
+                            >
+                      <option value="USD">USD</option>
+                      <option value="GBP">GBP</option>
+                      <option value="EUR">EUR</option>
+                    </select>
+                </div>
+                <ul>{list}</ul>
             </div>
         );
     }
